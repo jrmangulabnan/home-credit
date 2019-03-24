@@ -1,5 +1,6 @@
 package org.home.credit.repository;
 
+import org.home.credit.repository.data.WeatherLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Repository;

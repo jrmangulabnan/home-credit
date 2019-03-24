@@ -1,5 +1,6 @@
 package org.home.credit.app.controller;
 
+import org.home.credit.app.service.WeatherAggregateService;
 import org.home.credit.integration.dto.WeatherResp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

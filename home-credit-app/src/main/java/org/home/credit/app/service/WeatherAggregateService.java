@@ -1,11 +1,11 @@
-package org.home.credit.app.controller;
+package org.home.credit.app.service;
 
 import java.util.concurrent.atomic.AtomicLong;
 
 import org.home.credit.integration.api.OpenWeatherMapApiClient;
 import org.home.credit.integration.dto.WeatherResp;
-import org.home.credit.repository.WeatherLog;
 import org.home.credit.repository.WeatherRepository;
+import org.home.credit.repository.data.WeatherLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -3,6 +3,7 @@ package org.home.credit.app.main;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.home.credit.app.service.WeatherAggregateService;
 import org.home.credit.integration.api.OpenWeatherMapApiClient;
 import org.home.credit.integration.util.LoggingRequestInterceptor;
 import org.home.credit.repository.WeatherRepository;
@@ -64,5 +65,10 @@ public class HomeCreditConfig {
 	@Bean
 	public WeatherRepository weatherRepository() {
 		return new WeatherRepository();
+	}
+	
+	@Bean
+	public WeatherAggregateService weatherAggregateService() {
+		return new WeatherAggregateService();
 	}
 }

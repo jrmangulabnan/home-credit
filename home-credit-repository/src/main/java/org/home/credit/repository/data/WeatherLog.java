@@ -1,4 +1,4 @@
-package org.home.credit.repository;
+package org.home.credit.repository.data;
 
 import java.sql.Timestamp;
 import java.util.Date;
