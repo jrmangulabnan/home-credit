@@ -21,7 +21,7 @@ public class WeatherController {
 
 	/**
 	 * This method would be the available api visit this link to try
-	 * http://localhost:8080/weather?location=London
+	 * http://localhost:8080/weather
 	 * 
 	 * @param location
 	 * @return Weather
@@ -31,13 +31,4 @@ public class WeatherController {
 	public WeatherResp getWeather() {
 		return weatherAggregateService.getWeather();
 	}
-
-	public WeatherAggregateService getWeatherAggregateService() {
-		return weatherAggregateService;
-	}
-
-	public void setWeatherAggregateService(WeatherAggregateService weatherAggregateService) {
-		this.weatherAggregateService = weatherAggregateService;
-	}
-
 }

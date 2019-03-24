@@ -1,4 +1,4 @@
-package org.home.credit.app.main;
+package org.home.credit.app.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;

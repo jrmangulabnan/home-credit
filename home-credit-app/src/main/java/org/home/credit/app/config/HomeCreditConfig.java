@@ -1,4 +1,4 @@
-package org.home.credit.app.main;
+package org.home.credit.app.config;
 
 import java.util.ArrayList;
 import java.util.List;
